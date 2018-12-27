@@ -5,28 +5,24 @@
 
 这个代码库贮存了可以构建一个Android APP驱动First竞赛机器人的基本官方源码，要用此SDK, 只需简单克隆一下即可~~。
 
+## 下载Project
+代码库中的代码很大很多,一般会占用大量空间和时间,为了节约时间,可以选择只下其中一部分。
+
+1）如果你有git，那么可以用如下命令获取最新版本：
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone --depth=1 https://github.com/ftctechnh/ftc_app.git</p>
+
+* 当然，下载ZIP文件也是不错的方法。
+
+下载完成后就可以使用Android Studio导入project -->>  ("Import project (Eclipse ADT, Gradle, etc.)").
+
+## 帮助
+### User Documentation and Tutorials
 如果你是个新手，这儿有为你精心准备的WIKI来教你如何安装,设置这个软件来操控机器人。
 
 <br/>https://github.com/ftctechnh/ftc_app/wiki
 
 这个WIKI可是不断地在进行更新的呦~
-
-## Downloading the Project
-It is important to note that this repository is large and can take a long time and use a lot of space to download. If you would like to save time and space, there are some options that you can choose to download only the most current version of the Android project folder:
-
-* If you are a git user, *FIRST* recommends that you use the --depth command line argument to only clone the most current version of the repository:
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone --depth=1 https://github.com/ftctechnh/ftc_app.git</p>
-
-* Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
-
-* You can also download the project folder (as a .zip or .tar.gz archive file) from the Downloads subsection of the Releases page for this repository.
-
-Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the folder  ("Import project (Eclipse ADT, Gradle, etc.)").
-
-## Getting Help
-### User Documentation and Tutorials
-*FIRST* maintains an online wiki with information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.  You can access the wiki at the following address:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/wiki
 
