@@ -7,9 +7,9 @@
 
 如果你是个新手，这儿有为你精心准备的WIKI来教你如何安装,设置这个软件来操控机器人。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/wiki
+<br/>https://github.com/ftctechnh/ftc_app/wiki
 
-Note that the wiki is an "evergreen" document that is constantly being updated and edited.  It contains the most current information about the *FIRST* Tech Challenge software and control system.
+这个WIKI可是不断地在进行更新的呦~
 
 ## Downloading the Project
 It is important to note that this repository is large and can take a long time and use a lot of space to download. If you would like to save time and space, there are some options that you can choose to download only the most current version of the Android project folder:
