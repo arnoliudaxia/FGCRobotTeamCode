@@ -1,7 +1,4 @@
 ## 欢迎!
-### Another Language Version
-
-<a href="README.md">English Docs Version</a>
 
 这个代码库贮存了可以构建一个Android APP驱动First竞赛机器人的基本官方源码，要用此SDK, 只需简单克隆一下即可~~。
 
