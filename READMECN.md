@@ -1,11 +1,11 @@
 ## 欢迎!
-###Another Language Version
+### Another Language Version
 
+<a href="README.md">English Docs Version</a>
 
+这个代码库贮存了可以构建一个Android APP驱动First竞赛机器人的基本官方源码，要用此SDK, 只需简单克隆一下即可~~。
 
-This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
-
-If you are new to the *FIRST* Tech Challenge software and control system, you should visit the online wiki to learn how to install, configure, and use the software and control system:<p>测试中文</p>
+如果你是个新手，这儿有为你精心准备的WIKI来教你如何安装,设置这个软件来操控机器人。
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/wiki
 
