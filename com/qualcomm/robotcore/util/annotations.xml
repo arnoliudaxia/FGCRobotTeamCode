@@ -1,0 +1,5 @@
+<root>
+    <item name='com.qualcomm.robotcore.util.Range Range()'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

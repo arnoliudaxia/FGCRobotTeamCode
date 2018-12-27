@@ -1,0 +1,39 @@
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+import com.qualcomm.robotcore.hardware.ColorSensor;
+import com.qualcomm.robotcore.util.ElapsedTime;
+@TeleOp(name = "FGCColour", group = "Linear Opmode")
+//@Disabled
+public class FGCColour extends OpMode
+{
+    private ElapsedTime runtime = new ElapsedTime();//计时
+private ColorSensor colorSensor;
+    public void init()
+    {
+        colorSensor=hardwareMap.get(ColorSensor.class,"colour");
+    }
+
+    @Override
+    public void init_loop()
+    {
+
+    }
+
+    @Override
+    public void start()
+    {
+        telemetry.clearAll();
+        runtime.reset();
+    }
+    @Override
+    public void loop()
+    {
+        telemetry.addData("RED",colorSensor.red());
+        telemetry.addData("BLUE",colorSensor.blue());
+        telemetry.addData("GREEN",colorSensor.green());
+        telemetry.update();
+
+    }
+}
