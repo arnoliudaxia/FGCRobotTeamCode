@@ -27,17 +27,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/wiki
 
 ### Javadoc Reference Material
-The Javadoc reference documentation for the FTC SDK is now available online.  Visit the following URL to view the FTC SDK documentation as a live website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html
 
-Documentation for the FTC SDK is also included with this repository.  There is a subfolder called "doc" which contains several subfolders:
+在线JavaDoc(需翻墙): http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html
 
- * The folder "apk" contains the .apk files for the FTC Driver Station and FTC Robot Controller apps.
- * The folder "javadoc" contains the JavaDoc user documentation for the FTC SDK.
+Doc也可以在项目文件中找到:
 
-### Online User Forum
-For technical questions regarding the SDK, please visit the FTC Technology forum:
+ * "apk"文件夹包含了 FTC Driver Station (DS) 和 FTC Robot Controller (RC)的APK。
+ * Doc也可以在"javadoc"文件夹中找到。
+
+### 论坛
+FTC技术论坛网址:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology
 
