@@ -1,47 +1,43 @@
-## Welcome!
+## 欢迎!
 ### Another Language Version
 
-<a href="READMECN.md">中文版Doc链接</a>
+<a href="README.md">English Docs Version</a>
 
-This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
+这个代码库贮存了可以构建一个Android APP驱动First竞赛机器人的基本官方源码，要用此SDK, 只需简单克隆一下即可~~。
 
-If you are new to the *FIRST* Tech Challenge software and control system, you should visit the online wiki to learn how to install, configure, and use the software and control system:<p>测试中文</p>
+## 下载Project
+代码库中的代码很大很多,一般会占用大量空间和时间,为了节约时间,可以选择只下其中一部分。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/wiki
-
-Note that the wiki is an "evergreen" document that is constantly being updated and edited.  It contains the most current information about the *FIRST* Tech Challenge software and control system.
-
-## Downloading the Project
-It is important to note that this repository is large and can take a long time and use a lot of space to download. If you would like to save time and space, there are some options that you can choose to download only the most current version of the Android project folder:
-
-* If you are a git user, *FIRST* recommends that you use the --depth command line argument to only clone the most current version of the repository:
+1）如果你有git，那么可以用如下命令获取最新版本：
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone --depth=1 https://github.com/ftctechnh/ftc_app.git</p>
 
-* Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
+* 当然，下载ZIP文件也是不错的方法。
 
-* You can also download the project folder (as a .zip or .tar.gz archive file) from the Downloads subsection of the Releases page for this repository.
+下载完成后就可以使用Android Studio导入project -->>  ("Import project (Eclipse ADT, Gradle, etc.)").
 
-Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the folder  ("Import project (Eclipse ADT, Gradle, etc.)").
-
-## Getting Help
+## 帮助
 ### User Documentation and Tutorials
-*FIRST* maintains an online wiki with information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.  You can access the wiki at the following address:
+如果你是个新手，这儿有为你精心准备的WIKI来教你如何安装,设置这个软件来操控机器人。
+
+<br/>https://github.com/ftctechnh/ftc_app/wiki
+
+这个WIKI可是不断地在进行更新的呦~
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/wiki
 
 ### Javadoc Reference Material
-The Javadoc reference documentation for the FTC SDK is now available online.  Visit the following URL to view the FTC SDK documentation as a live website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html    
 
-Documentation for the FTC SDK is also included with this repository.  There is a subfolder called "doc" which contains several subfolders:
+在线JavaDoc(需翻墙): http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html
 
- * The folder "apk" contains the .apk files for the FTC Driver Station and FTC Robot Controller apps.
- * The folder "javadoc" contains the JavaDoc user documentation for the FTC SDK.
+Doc也可以在项目文件中找到:
 
-### Online User Forum
-For technical questions regarding the SDK, please visit the FTC Technology forum:
+ * "apk"文件夹包含了 FTC Driver Station (DS) 和 FTC Robot Controller (RC)的APK。
+ * Doc也可以在"javadoc"文件夹中找到。
+
+### 论坛
+FTC技术论坛网址:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology
 
@@ -120,20 +116,20 @@ Changes with verion 3.3 include:
     - Sample op modes can be selected as a template when creating new op mode.
     - Fixes and changes to complete hardware setup feature.
     - Updated (and more useful) onBot welcome message.
-    
+
 Known issues:
  * Android Studio
     - After updating to the new v3.3 Android Studio project folder, if you get error messages indicating "InvalidVirtualFileAccessException" then you might need to do a File->Invalidate Caches / Restart to clear the error.
  * OnBot Java
     - Sometimes when you push the build button to build all op modes, the RC returns an error message that the build failed.  If you press the build button a second time, the build typically suceeds.
-    
+
 **************************************************************************************
 
 Version 3.2 (built on 17.08.02)
 
 This version of the software introduces the "OnBot Java" Development Tool.  Similar to the FTC Blocks Development Tool, the FTC OnBot Java Development Tool allows a user to create, edit and build op modes dynamically using only a Javascript-enabled web browser.
 
-The OnBot Java Development Tool is an integrated development environment (IDE) that is served up by the Robot Controller.  Op modes are created and edited using a Javascript-enabled browser (Google Chromse is recommended).  Op modes are saved on the Robot Controller Android device directly.  
+The OnBot Java Development Tool is an integrated development environment (IDE) that is served up by the Robot Controller.  Op modes are created and edited using a Javascript-enabled browser (Google Chromse is recommended).  Op modes are saved on the Robot Controller Android device directly.
 
 The OnBot Java Development Tool provides a Java programming environment that does NOT need Android Studio.
 
@@ -219,7 +215,7 @@ Changes include:
     - Blocks execute after while-opModeIsActive loop (to allow for cleanup before exiting op mode).
     - Added gyro integratedZValue block.
     - Fixes bug with projects page for Firefox browser.
-    - Added IsSpeaking block to AndroidTextToSpeech.  
+    - Added IsSpeaking block to AndroidTextToSpeech.
  * Implements support for the REV Robotics Expansion Hub
     - Implements support for integral REV IMU (physically installed on I2C bus 0, uses same Bosch BNO055 9 axis absolute orientation sensor as Adafruit 9DOF abs orientation sensor).    - Implements support for REV color/range/light sensor.
     - Provides support to update Expansion Hub firmware through FTC SDK.
@@ -279,7 +275,7 @@ Version 2.5 (internal release on released on 16.12.13)
      - Added type safety to blocks for LightSensor.
      - Added type safety to blocks for LinearOpMode.
      - Added type safety to blocks for MagneticFlux.
-     - Added type safety to blocks for MatrixF.     
+     - Added type safety to blocks for MatrixF.
      - Added type safety to blocks for MrI2cCompassSensor.
      - Added type safety to blocks for MrI2cRangeSensor.
      - Added type safety to blocks for OpticalDistanceSensor.
@@ -414,7 +410,7 @@ Version 2.00 (released on 16.08.19)
  * Standardized units in analog input.
  * Cleaned up code for existing analog sensor classes.
  * setChannelMode and getChannelMode were REMOVED from the DcMotorController class.  This is important - we no longer set the motor modes through the motor controller.
- * setMode and getMode were added to the DcMotor class.  
+ * setMode and getMode were added to the DcMotor class.
  * ContinuousRotationServo class has been added to the FTC SDK.
  * Range.clip() method has been overloaded so it can support this operation for int, short and byte integers.
  * Some changes have been made (new methods added) on how a user can access items from the hardware map.
@@ -494,7 +490,7 @@ Release 16.02.09
     - If user attempts to start/restart RC with one or more module missing, it will display a warning but still start up.
     - When running an op mode, if one or more modules gets disconnected, the RC & DS will display warnings,and robot will keep on working in spite of the missing module(s).
     - If a disconnected module gets physically reconnected the RC will auto detect the module and the user will regain control of the recently connected module.
-    - Warning messages are more helpful (identifies the type of module that’s missing plus its USB serial number).   
+    - Warning messages are more helpful (identifies the type of module that’s missing plus its USB serial number).
  * Code changes to fix the null gamepad reference when users try to reference the gamepads in the init() portion of their op mode.
  * NXT light sensor output is now properly scaled.  Note that teams might have to readjust their light threshold values in their op modes.
  * On DS user interface, gamepad icon for a driver will disappear if the matching gamepad is disconnected or if that gamepad gets designated as a different driver.
